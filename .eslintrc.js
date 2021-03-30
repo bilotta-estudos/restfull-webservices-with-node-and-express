@@ -2,6 +2,8 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    node: true,
+    mocha: true
   },
   extends: [
     'airbnb-base',
@@ -13,5 +15,6 @@ module.exports = {
   rules: {
     'linebreak-style': ['error', 'windows'],
     'no-console': 'off',
+    'comma-dangle': 0,
   },
 };
